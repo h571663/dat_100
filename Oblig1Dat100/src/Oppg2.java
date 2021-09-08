@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 
 public class Oppg2 {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args){
 
 		char karakter = 0;
 
@@ -19,7 +19,7 @@ public class Oppg2 {
 		}
 	}
 
-	public static char Karakter(int poengsum) throws Exception {
+	public static char Karakter(int poengsum){
 		char karakter = 0;
 
 		if (poengsum < 40 && poengsum >= 0) {
